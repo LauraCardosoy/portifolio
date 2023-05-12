@@ -6,8 +6,9 @@
 }
 
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -24,6 +25,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+   
+    
     
    
     
@@ -73,8 +76,10 @@ body{
 .right{
     display: flex;
     flex-direction: column;
-    
     margin: 10px;
+    
+    
+    
     
 }
 
@@ -84,22 +89,25 @@ body{
     height: 60px;
     background: rgb(65, 61, 61);
     border-radius: 20px;
+   
 }
 
 .flexbox{
     display: flex;
     flex-direction: row;
     gap: .0.5rem;
-    margin: 10px;
+    padding: .5rem;
+    
     
 }
 
 .onix{
     display: flex;
-    width: 440px;
-    height: 100px;
+    width: 450px;
+    height: 120px;
     background: rgb(65, 61, 61);
-    border-radius: 20px;    
+    border-radius: 20px;  
+      
 }
 
 .post{
@@ -113,9 +121,11 @@ body{
 .erro{
     display: flex;
     width: 900px;
-    height: 110px;
+    height: 120px;
     background: rgb(65, 61, 61);
     border-radius: 20px;
-    margin: 10px; 
+    padding: .5rem;
+    margin-top: 10px;
+     
 
 }
