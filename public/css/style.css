@@ -51,7 +51,7 @@ body{
 }
 .perfile {
     display: flex;
-    height: 800px;  
+    height: 700px;  
     padding: 15px;
     flex-direction: column;
     justify-content: space-between;
@@ -62,7 +62,7 @@ body{
     height: 300px; 
     padding: 10px;
     flex-direction: column; 
-    width: 50vw;
+    
    
 }
 .right{
@@ -77,28 +77,36 @@ body{
     border-radius: 20px;
     width: 70vw;
     margin-top: 10px;
-    justify-content: flex-end;
+    
 }
 
 .project{
+    display: flex;
     height: 60px;
+    padding: 15px;
+
 }
 
 .flexbox{
     display: flex;
     flex-direction: row;
     width: 50%;
-    height: 120px;
+    height: 140px;
     gap: 0.5rem;
     
 }
 .post{
-    height: 60px;
+    height: 90px;
+    display: flex;
+    justify-content: start;
+    padding: 10px; 
 }
 .erro{
     display: flex;
-    height: 120px;
+    height: 140px;
     padding: .5rem;
+    flex-direction: column;
+    
 }
 
 li{
@@ -111,11 +119,14 @@ li{
    display: flex;
    flex-direction: row;
    gap:.5rem;
-   font-size: small;
-   height: 30px;
+   font-size: 12px;
+   height: 20px;
    margin: 5px;
    justify-content: center;
-
+   width: 95%;
+   font-weight: bold;
+   padding-left: 15px;
+   
 }
 .tec{
     display: flex;
@@ -123,7 +134,17 @@ li{
     background: rgb(173, 108, 118);
     color: black;
     align-items: center;
-    width: 100%;
     justify-content: center ;
-
+    width: 100%;    
+}
+.onix{
+    display: flex;
+    justify-content: start;
+    padding: 5px;  
+    flex-direction: column; 
+}
+#title{
+    display: flex;
+    justify-content: flex-end;
+    color: black;
 }
