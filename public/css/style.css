@@ -143,8 +143,3 @@ li{
     padding: 5px;  
     flex-direction: column; 
 }
-#title{
-    display: flex;
-    justify-content: flex-end;
-    color: black;
-}
