@@ -2,8 +2,6 @@
 /* margem auto; min-with: 320px; max-with:800px; with:100%
 Responsividade
 
-
-
 */
 *{
     margin: 0;
@@ -47,6 +45,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction:column;
+   
     
 }
 .perfile {
@@ -56,6 +55,14 @@ body{
     flex-direction: column;
     justify-content: space-between;
    
+}
+
+#foto{
+    margin-top: 10px;
+    border-radius: 999px;
+    height: 140px;
+    width: 140px;
+    background-color: #837E9F;
 }
 .tecnologe{
     display: flex;
@@ -101,11 +108,20 @@ body{
     justify-content: start;
     padding: 10px; 
 }
+
+.profile-img{
+    
+    border-radius: 25px;
+    height: 120px;
+    width: 100px;
+    background-color: #837E9F;
+}
 .erro{
     display: flex;
     height: 140px;
-    padding: .5rem;
+   
     flex-direction: column;
+  
     
 }
 
