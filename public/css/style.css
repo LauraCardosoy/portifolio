@@ -110,11 +110,10 @@ body{
 }
 
 .profile-img{
-    
-    border-radius: 25px;
-    height: 120px;
-    width: 100px;
-    background-color: #837E9F;
+    border-radius: 998px;
+    margin: 5px;
+    width: 150px;
+   
 }
 .erro{
     display: flex;
