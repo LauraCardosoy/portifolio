@@ -118,11 +118,17 @@ body{
 .erro{
     display: flex;
     height: 140px;
-   
-    flex-direction: column;
-  
-    
+    flex-direction: row;
+    gap: .5rem;
+    padding: 8px;
 }
+
+.erro-foto{
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
 
 li{
     display: flex;
