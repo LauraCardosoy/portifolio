@@ -161,3 +161,19 @@ li{
     justify-content: start;  
     flex-direction: column; 
 }
+a{
+    color: #837E9F
+    
+}
+a:visited{
+    color: #555;
+}
+a:hover{
+    color:#999;
+}
+a:active{
+    color: #333;
+}
+a{
+    text-decoration: none;
+}
