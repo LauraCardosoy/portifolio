@@ -106,7 +106,7 @@ body{
 }
 
 .profile-img{
-    border:solid rgb(159, 219, 68);
+    border:solid greenyellow;
     border-radius: 999px;
     margin: 5px;
     width: 130px;
